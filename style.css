@@ -1,0 +1,94 @@
+/* font-family: "Lora",
+ serif;*/
+
+body {
+    font-family: "Oxygen", sans-serif;
+    color: #fff;
+    font-size: 13px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.header {
+    background-image: url(/imges/background.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top, center;
+    
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;    
+}
+
+.logo {
+    display: block;
+}
+
+.header__logo {
+    width: 92px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap:0 40px;
+    
+}
+
+.nav__item {
+    display: inline;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.8;     
+    letter-spacing: 0.6px;
+    text-transform: uppercase;    
+}
+
+.header__content {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+.header__title {
+    top: -7px;
+    
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 50px;
+    
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.header__text {}
+
+.header__btn {}
